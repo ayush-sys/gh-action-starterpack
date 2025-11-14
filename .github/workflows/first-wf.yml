@@ -1,0 +1,10 @@
+name: gh-starter-wf
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greet user
+        run: echo "Hello, user! Congrats on creating your first piepline!"
+      - name: Good Bye user
+        run: echo "Bye! Keep learning"
